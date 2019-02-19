@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Workshop Class 1</string>
+    <string name="insert_name">Insert name</string>
+    <string name="go">Go!</string>
+    <string name="hello">Hello, %s!</string>
+    <string name="buttonAccept">Accept</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="insert_response">Insert response</string>
+    <string name="camera">Camera</string>
+    <string name="insert_your_name">insert your name</string>
+</resources>

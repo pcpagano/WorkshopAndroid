@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResponseActivity">
+
+    <TextView
+        android:id="@+id/textSaludo"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="@string/hello"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textRespuesta"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="84dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/insert_response"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSaludo" />
+
+    <Button
+        android:id="@+id/buttonAccept"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="132dp"
+        android:text="@string/buttonAccept"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textRespuesta" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="132dp"
+        android:text="@string/buttonCancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAccept" />
+</android.support.constraint.ConstraintLayout>

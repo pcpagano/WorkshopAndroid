@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Workshop Clase 1</string>
+    <string name="go">Ir!</string>
+    <string name="insert_name">Inserte nombre</string>
+    <string name="hello">Hola, %s!</string>
+    <string name="buttonAccept">Aceptar</string>
+    <string name="buttonCancel">Cancelar</string>
+    <string name="insert_response">Inserte la respuesta</string>
+    <string name="camera">Camara</string>
+    <string name="insert_your_name">escriba su nombre</string>
+</resources>
