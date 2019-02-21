@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Clase 2</string>
+    <string name="rojo">rojo</string>
+    <string name="azul">azul</string>
+    <string name="verde">verde</string>
+    <string name="amarillo">amarillo</string>
+    <string name="negro">negro</string>
+    <string name="blanco">blanco</string>
+    <string name="magenta">magenta</string>
+    <string name="cyan">cyan</string>
+    <string name="gris_claro">gris claro</string>
+    <string name="gris">gris</string>
+</resources>

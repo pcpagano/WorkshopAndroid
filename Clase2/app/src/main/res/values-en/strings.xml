@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clase 2</string>
+    <string name="verde">green</string>
+    <string name="rojo">red</string>
+    <string name="negro">black</string>
+    <string name="magenta">magenta</string>
+    <string name="gris_claro">light gray</string>
+    <string name="gris">gray</string>
+    <string name="cyan">cyan</string>
+    <string name="blanco">white</string>
+    <string name="azul">blue</string>
+    <string name="amarillo">yellow</string>
+</resources>
