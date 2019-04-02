@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Clase 4</string>
+    <string name="textSearch">type here…</string>
+    <string name="searchTermError">Search term is Required!</string>
+    <string name="buttonClear">Clear</string>
+    <string name="buttonSearch">Search</string>
+    <string name="product_thumbnail">Product thumbnail</string>
+    <string name="searchURL">https%3A%2F%2Fapi.mercadolibre.com%2Fsites%2FMLA%2Fsearch%3Fq%3D</string>
+    <string name="descriptionText">Description</string>
+</resources>
