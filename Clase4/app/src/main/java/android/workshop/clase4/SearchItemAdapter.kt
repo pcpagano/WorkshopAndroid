@@ -10,7 +10,7 @@ import android.widget.TextView
 import com.squareup.picasso.Picasso
 import java.text.NumberFormat
 
-class SearchItemAdapter (private val results : List<Results>, private val onclickAction: (String) -> Unit ) : RecyclerView.Adapter<SearchItemAdapter.ItemViewHolder>() {
+class SearchItemAdapter (private val results : List<Results>, private val startProductActivity: (String) -> Unit ) : RecyclerView.Adapter<SearchItemAdapter.ItemViewHolder>() {
 
     class ItemViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val searchItemRow = view.findViewById<ConstraintLayout>(R.id.searchItemRow)
@@ -39,6 +39,6 @@ class SearchItemAdapter (private val results : List<Results>, private val onclic
         p0.title.text = item.title
         p0.price.text = format.format(item.price.toDouble())
         Picasso.get().load(item.thumbnail).resize(100, 100).into(p0.thumb)
-        p0.searchItemRow.setOnClickListener { onclickAction(item.id) }
+        p0.searchItemRow.setOnClickListener { startProductActivity(item.id) }
     }
 }

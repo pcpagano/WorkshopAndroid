@@ -32,6 +32,7 @@ class SelectedProduct : AppCompatActivity() {
     lateinit var imageView: ImageView
     lateinit var selectedPrice: TextView
     lateinit var selectedDescription: TextView
+    lateinit var textDesctiption: TextView
     lateinit var productId: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,6 +43,7 @@ class SelectedProduct : AppCompatActivity() {
         imageView = findViewById(R.id.imageView)
         selectedPrice = findViewById(R.id.selectedPrice)
         selectedDescription = findViewById(R.id.selectedDescription)
+        textDesctiption = findViewById(R.id.textDescription)
 
         productId = intent.extras?.getString("productId").toString()
 
@@ -59,6 +61,7 @@ class SelectedProduct : AppCompatActivity() {
     }
 
     fun showResult(result: Results) {
+        textDesctiption.text = resources.getString(R.string.descriptionText)
         selectedTitle.text = result.title
         selectedPrice.text = format.format(result.price.toDouble())
         Picasso.get().load(result.pictures.get(0).url).into(imageView)
